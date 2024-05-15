@@ -4,4 +4,5 @@
 }
 .body{
     margin-top:20rpx;
+    background-color: white;
 }

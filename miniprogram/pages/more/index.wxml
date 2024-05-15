@@ -3,13 +3,15 @@
 <image class="toolBanner" src="/static/images/tools.jpg"/>
 <view class="body">
 
-<van-grid square  column-num="4">
-  <van-grid-item wx:for="{{toolsItems}}" wx:key="index" wx:for-item="item" icon="{{item.icon}}" 
-  icon-color="{{item.iconColor}}"
-  link-type="{{item.linkType}}"
-  url="{{item.url}}"
-  text="{{item.text}}" />
-</van-grid>
+  <van-skeleton  avatar row="6" loading="{{ loading }}"  > 
+    <van-grid square  column-num="4">
+        <van-grid-item wx:for="{{toolsItems}}" wx:key="index" wx:for-item="item" icon="{{item.icon}}"
+        icon-color="{{item.iconColor}}"
+        link-type="{{item.linkType}}"
+        url="{{item.url}}"
+        text="{{item.text}}" />
+    </van-grid>
+  </van-skeleton>
 
 </view>
 

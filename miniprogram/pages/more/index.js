@@ -4,7 +4,8 @@ Page({
     data:{
       toolsItems:[
       ],
-      showAd:app.globalData.showAd
+      showAd:app.globalData.showAd,
+      loading:true
     },
     onLoad(){
       let that = this;
@@ -12,7 +13,8 @@ Page({
       apis.toolsItem().then(res=>{
         //console.log(res)
         that.setData({
-          toolsItems:res
+          toolsItems:res,
+          loading:false
         })
       })
     },

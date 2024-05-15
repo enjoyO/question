@@ -4,30 +4,31 @@
     "packOptions": {
         "ignore": [
             {
-                "type": "file",
-                "value": ".eslintrc.js"
+                "value": ".eslintrc.js",
+                "type": "file"
             },
             {
-                "type": "folder",
-                "value": "screenshot"
+                "value": "screenshot",
+                "type": "folder"
             },
             {
-                "type": "folder",
-                "value": "data"
+                "value": "data",
+                "type": "folder"
             },
             {
-                "type": "file",
-                "value": "constant.js.example"
+                "value": "constant.js.example",
+                "type": "file"
             },
             {
-                "type": "file",
-                "value": "LICENSE"
+                "value": "LICENSE",
+                "type": "file"
             },
             {
-                "type": "folder",
-                "value": ".git"
+                "value": ".git",
+                "type": "folder"
             }
-        ]
+        ],
+        "include": []
     },
     "setting": {
         "urlCheck": false,
@@ -48,15 +49,15 @@
         "uploadWithSourceMap": true,
         "compileHotReLoad": false,
         "lazyloadPlaceholderEnable": false,
-        "useMultiFrameRuntime": true,
-        "useApiHook": true,
-        "useApiHostProcess": true,
+        "useMultiFrameRuntime": false,
+        "useApiHook": false,
+        "useApiHostProcess": false,
         "babelSetting": {
             "ignore": [],
             "disablePlugins": [],
             "outputPath": ""
         },
-        "useIsolateContext": true,
+        "useIsolateContext": false,
         "userConfirmedBundleSwitch": false,
         "packNpmManually": false,
         "packNpmRelationList": [],
@@ -71,33 +72,10 @@
     "libVersion": "2.24.1",
     "appid": "wx09293d6036709520",
     "projectname": "%E6%97%A9%E6%99%9A%E7%AD%94",
-    "debugOptions": {
-        "hidedInDevtools": []
-    },
-    "scripts": {},
-    "staticServerOptions": {
-        "baseURL": "",
-        "servePath": ""
-    },
-    "isGameTourist": false,
-    "condition": {
-        "search": {
-            "list": []
-        },
-        "conversation": {
-            "list": []
-        },
-        "game": {
-            "list": []
-        },
-        "plugin": {
-            "list": []
-        },
-        "gamePlugin": {
-            "list": []
-        },
-        "miniprogram": {
-            "list": []
-        }
+    "condition": {},
+    "srcMiniprogramRoot": "miniprogram/",
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
     }
 }
